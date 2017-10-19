@@ -6,6 +6,7 @@ public class Student {
     private String firstName;
     private String lastName;
     private Grade grade;
+    private boolean isHonorRoll;
 
     public Student() {
     }
@@ -32,5 +33,13 @@ public class Student {
 
     public void setGrade(Grade grade) {
         this.grade = grade;
+    }
+
+    public boolean isHonorRoll() {
+        return isHonorRoll;
+    }
+
+    public void setHonorRoll(boolean honorRoll) {
+        isHonorRoll = honorRoll;
     }
 }
